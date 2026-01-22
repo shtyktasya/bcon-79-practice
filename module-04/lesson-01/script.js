@@ -4,13 +4,26 @@ const obj1 = {
   two: 16,
   five: 20,
 };
+const out1 = document.querySelector(".out-1");
+const btn1 = document.querySelector(".b-1");
+btn1.onclick = fn1;
 
+function fn1() {
+  out1.textContent = obj1.two;
+}
 // Task 2
 const obj2 = {
   one: "hello",
   two: "mahai",
   five: "hi",
 };
+const out2 = document.querySelector(".out-2");
+const btn2 = document.querySelector(".b-2");
+btn2.onclick = fn2;
+
+function fn2() {
+  out2.textContent = obj2.["five"];
+}
 
 // Task 3
 const obj3 = {
@@ -21,7 +34,19 @@ const obj3 = {
   odd: "hi",
   mix: "mix",
 };
+const out3 = document.querySelector(".out-3");
+const btn3 = document.querySelector(".b-3");
+btn3.onclick = fn3;
 
+function fn3() {
+  for (const key in obj3) {
+    if (!Object.hasOwn(object, key)) continue;
+    
+    const element = object[key];
+    
+    
+  }
+}
 // Task 4
 const obj4 = {
   one: "hello",

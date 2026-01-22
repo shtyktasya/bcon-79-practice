@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Task 1//
 =======
 // 1
@@ -452,3 +453,5 @@ function t11() {
 //   out20.textContent = `Clicks: ${++i}`;
 // }
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1

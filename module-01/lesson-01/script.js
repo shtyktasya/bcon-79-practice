@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Task 1//
 const myName = "Таїсія";
 console.log(myName);
@@ -233,3 +234,5 @@ out19 = document.querySelector("out-19-test");
 const out20 = document.querySelector(".out-20");
 console.log("🚀 ~ out20:", out20);
 out20.textContent = '<h2>Hi</h2>';
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1

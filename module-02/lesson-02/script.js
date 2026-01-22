@@ -1,21 +1,8 @@
 //  Task 1
 // Кнопка .b-1 запускає функцію fn1. Функція повинна виводити в .out-1 рядок вигляду:
-//1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_
-//.out-1 рядок вигляду
-const btn1 = document.querySelector(".b-1");
-const out1 = document.querySelector(".out-1");
-btn1.onclick = f1;
-
-function f1() {
-let result = "";
-for (let i = 1; i <= 16; i+=1) {
-console.log(i);
-result += `${i}_`;
-}
-out1.textContent = result;
-}
-
+//     1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_
 // Роздільник - нижнє підкреслення. Завдання вирішується за допомогою циклу.
+<<<<<<< HEAD
 const btn1 = document.querySelector(".b-1");
 const out1 = document.querySelector(".out-1");
 btn1.onclick = fn1;
@@ -38,6 +25,8 @@ const btn1 = document.querySelector(".b-1");
 const out1 = document.querySelector(".out-1");
 
 btn1.onclick = fn1;
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 
 function fn1() {
   let result = "";
@@ -51,6 +40,7 @@ function fn1() {
 // Кнопка .b-2 запускає функцію fn2. Функція повинна виводити в .out-2 рядок вигляду:
 //     12_14_16_18_20_22_24_26_28_30_32_34_36_38_
 // Роздільник - нижнє підкреслення. Завдання вирішується за допомогою циклу.
+<<<<<<< HEAD
 const btn2 = document.querySelector(".b-2");
 const out2 = document.querySelector(".out-2");
 btn2.onclick = fn2;
@@ -89,11 +79,15 @@ function fn2() {
 }
 
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
+=======
+
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 //  Task 3
 // Кнопка .b-3 запускає функцію fn3. Функція повинна виводити в .out-3 рядок вигляду:
 //  25_24_23_22_21_20_19_18_17_16_15_14_13_12_11_10_9_8_7_
 // Роздільник - нижнє підкреслення. Завдання вирішується за допомогою циклу.
 
+<<<<<<< HEAD
 const btn3 = document.querySelector(".b-3");
 const out3 = document.querySelector(".out-3");
 
@@ -121,10 +115,13 @@ function fn3() {
 >>>>>>> 2f73c2d67d19c0d2e44846d0202609b5f2f7a541
 }
 
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 //  Task 4
 // Кнопка .b-4 запускає функцію fn4. Функція повинна виводити в .out-4 рядок вигляду:
 //     77_74_71_68_65_62_59_56_53_50_47_44_41_38_35_
 // від 77 до 35 з кроком 3. Роздільник - знак підкреслення. Завдання вирішується за допомогою циклу.
+<<<<<<< HEAD
 
 const btn4 = document.querySelector(".b-4");
 const out4 = document.querySelector(".out-4");
@@ -152,10 +149,13 @@ function fn4() {
   out4.textContent = result;
 >>>>>>> 2f73c2d67d19c0d2e44846d0202609b5f2f7a541
 }
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 
 //  Task 5
 // Кнопка .b-5 запускає функцію fn5. Функція повинна виводити в .out-5 рядок вигляду:
 // 1_*2_**3_*4_**5_*6_**7_*8_**9_*10_**11_*12_**13_*14_**15_*16_**17_*
+<<<<<<< HEAD
 <<<<<<< HEAD
 // від 1 до 17 з кроком 1. Роздільник - знак підкреслення та зірочка (якщо число непарне, і дві зірочки, якщо парне).
 //  Завдання вирішується за допомогою циклу.
@@ -210,6 +210,9 @@ function fn5() {
   }
   out5.textContent = result;
 }
+=======
+// від 1 до 17 з кроком 1. Роздільник - знак підкреслення та зірочка (якщо число непарне, і дві зірочки, якщо парне). Завдання вирішується за допомогою циклу.
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
 //  Task 6
@@ -220,6 +223,7 @@ function fn5() {
 // ******<br>
 //
 // Завдання вирішується за допомогою циклу. В кожній ітерації цикл виводить 6 зірочок. Перенесення рядка - br. Кількість рядків (ітерацій, повторень) циклу вводить користувач в i-6.
+<<<<<<< HEAD
 <<<<<<< HEAD
 const btn6 = document.querySelector(".b-6");
 const out6 = document.querySelector(".out-6");
@@ -255,6 +259,9 @@ function fn6() {
   }
   out6.innerHTML = result;
 }
+=======
+//
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
 //  Task 7
@@ -263,6 +270,7 @@ function fn6() {
 // Роздільник - знак підкреслення. Якщо користувач ввів 4 і натиснув кнопку, ми отримаємо:
 // 4_3_2_1_0_
 // Завдання вирішується за допомогою циклу.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 const btn7 = document.querySelector(".b-7");
@@ -301,6 +309,8 @@ function fn7() {
   out7.textContent = result;
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
 }
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 
 //  Task 8
 // Є input .i-81 та .i-82, куди користувач може ввести числа більше нуля (перевірок не робимо, приймаємо як факт).
@@ -309,6 +319,7 @@ function fn7() {
 // Роздільник - підкреслення. Якщо користувач ввів 4 і 8 і натиснув кнопку, ми отримаємо:
 //  4_5_6_7_8_
 // Завдання вирішується за допомогою циклу.
+<<<<<<< HEAD
 const btn8 = document.querySelector(".b-8");
 <<<<<<< HEAD
 const out8 = document.querySelector(".out-8");
@@ -379,6 +390,9 @@ function fn8() {
 }
 
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
+=======
+
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 //  Task 9
 // Є input .i-91 та .i-92, куди користувач може ввести числа.
 // Після натискання кнопки .b-9 повинна запускатися функція fn9, яка виводить в .out-9 числа від меншого введеного до більшого включно, з кроком 1.
@@ -388,6 +402,7 @@ function fn8() {
 // 6_7_8_
 // Завдання вирішується за допомогою циклу. Підказка - спочатку робимо перевірку, а потім запускаємо цикл.
 // цикл - один
+<<<<<<< HEAD
 <<<<<<< HEAD
 const btn9 = document.querySelector(".b-9");
 const out9 = document.querySelector(".out-9");
@@ -482,11 +497,14 @@ function fn9() {
   //   }
 
   // }
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 
 //  Task 10
 // Кнопка .b-10 запускає функцію fn10. Функція повинна виводити в .out-10 парні роки від 1950 до 1970 включно.
 // Роздільник - знак підкреслення. Завдання вирішується через цикл, а парність - через крок (рівний 2).
 
+<<<<<<< HEAD
 function fn10() {
   let result = '';
 
@@ -503,6 +521,8 @@ function fn10() {
 document.querySelector('.b-10').addEventListener('click', fn10);
 
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 //  Task 11
 // Кнопка .b-11 запускає функцію fn11. Функція повинна:
 // - отримати всі div.div-11 у змінну divs11
@@ -511,46 +531,18 @@ document.querySelector('.b-10').addEventListener('click', fn10);
 // В результаті повинно вийти так:
 //     one_3_4_two_
 
-function fn11() {
-  const divs11 = document.querySelectorAll('.div-11');
-  let result = '';
-
-  for (let i = 0; i < divs11.length; i++) {
-    result += divs11[i].innerHTML + '_';
-  }
-
-  document.querySelector('.out-11').textContent = result;
-}
-
-document.querySelector('.b-11').addEventListener('click', fn11);
-
-
 //  Task 12
 // Кнопка .b-12 запускає функцію fn12. Функція повинна:
 // - отримати всі div.div-12
 // - перебрати їх за допомогою циклу. Звернення до div виглядає так: elem[i]
 // - застосувати до кожного elem[i].style.background = ‘orange’
-document.querySelector(".b-12").onclick = fn12;
-
-function fn12() {
-const elems = document.querySelectorAll(".div-12");
-
-function fn12() {
-  const elems = document.querySelectorAll('.div-12');
-
-  for (let i = 0; i < elems.length; i++) {
-    elems[i].style.background = 'orange';
-  }
-}
-
-document.querySelector('.b-12').addEventListener('click', fn12);
-
 
 //  Task 13
 // За допомогою циклу привласніть всім input .i-13 value рівне:
 // - для першого  1
 // - для другого  2
 // - для третього 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 document.querySelector(".b-13").onclick = fn13
 =======
@@ -582,6 +574,8 @@ for (let i = 0; i < inputs13.length; i++) {
   inputs13[i].value = i + 1;
 }
 
+=======
+>>>>>>> 77403f07b994e9760bc20805296fd1904b6c1ff1
 
 >>>>>>> 70dc8c2bc59b8808f27755676c10c5e9dafecc63
 //  Task 14
@@ -590,40 +584,8 @@ for (let i = 0; i < inputs13.length; i++) {
 // - перебрати їх за допомогою циклу. Звернення до елемента виглядає так: elem[i]
 // - вивести в .out-14 value вибраного input
 // Перевірити, чи вибраний елемент, можна за допомогою elem[i].checked.
-// const btn14 = fn14;
-// const input14 = document.querySelector(".i-14");
-// const out14 = document.querySelector(".out-14");
-
-function fn14() {
-  const elems = document.querySelectorAll('.i-14');
-  let result = '';
-
-  for (let i = 0; i < elems.length; i++) {
-    if (elems[i].checked) {
-      result = elems[i].value;
-    }
-  }
-
-  document.querySelector('.out-14').textContent = result;
-}
-
-document.querySelector('.b-14').addEventListener('click', fn14);
-
 
 //  Task 15
 // Кнопка .b-15 запускає функцію fn15. Функція повинна виводити наступну послідовність в .out-15:
 // 10_0_9_1_8_2_7_3_6_4_5_5_4_6_3_7_2_8_1_9_0_10_
 // Підказка (10 - i) + '_' + i + '_'
-
-function fn15() {
-  let result = '';
-
-  for (let i = 0; i <= 10; i++) {
-    result += (10 - i) + '_' + i + '_';
-  }
-
-  document.querySelector('.out-15').textContent = result;
-}
-
-document.querySelector('.b-15').addEventListener('click', fn15);
-

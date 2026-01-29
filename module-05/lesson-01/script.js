@@ -1,13 +1,49 @@
 //TODO: Join, Split, ForEach
 // Task 1
 const arr1 = [4, 5, 6, 7, 12, 34, 56, 78, 90, 11];
+const btn1 = document.querySelector(".b-1");
+const out1 = document.querySelector(".out-1");
+btn1.onclick = fn1;
 
+function fn1() {
+  const arr1_res = [];
+  arr1.forEach(function (number) {
+    arr1_res.push(number * 2);
+  });
+  out1.textContent = arr1_res.join(", ");
+  return out1;
+}
 // Task 2
 const arr2 = [2, 3, 4, 5, 10, 11, 12];
+const btn2 = document.querySelector(".b-2");
+const out2 = document.querySelector(".out-2");
+btn2.onclick = fn2;
 
+function fn2() {
+  const arr2_res = [];
+  arr2.forEach(function (number) {
+    arr2_res.push(number / 2);
+  });
+  out2.textContent = arr2_res.join(", ");
+  return out2;
+}
 // Task 3
 const arr3 = [2, "hello", 3, "hi", 4, "Mazai"];
+const btn3 = document.querySelector(".b-3");
+const out3 = document.querySelector(".out-3");
+btn3.onclick = fn3;
 
+function fn3() {
+  const arr3_res = [];
+  arr3.forEach(function (item) {
+    if (typeof item === "number") {
+      arr3_res.push(item);
+    }
+    
+  })
+  out3.textContent = arr3_res.join(", ");
+  return out3;
+}
 // Task 4
 const arr4_res = [];
 

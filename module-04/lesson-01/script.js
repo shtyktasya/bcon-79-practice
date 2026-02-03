@@ -22,7 +22,7 @@ const btn2 = document.querySelector(".b-2");
 btn2.onclick = fn2;
 
 function fn2() {
-  out2.textContent = obj2.["five"];
+  out2.textContent = obj2["five"];
 }
 
 // Task 3
@@ -39,13 +39,15 @@ const btn3 = document.querySelector(".b-3");
 btn3.onclick = fn3;
 
 function fn3() {
+  let result = "";
   for (const key in obj3) {
-    if (!Object.hasOwn(object, key)) continue;
-    
-    const element = object[key];
-    
-    
+    if (obj3[key] === "hi") {
+      result += obj3[key] + " ";
+    }
   }
+  result = result.trim(); // прибираємо зайвий пробіл
+  out3.textContent = result;
+  return result;
 }
 // Task 4
 const obj4 = {
@@ -56,13 +58,33 @@ const obj4 = {
   odd: "hi",
   mix: "mix",
 };
-
+const out4 = document.querySelector(".out-4");
+const btn4 = document.querySelector(".b-4");
+btn4.onclick = fn4;
+function fn4() {
+  let result = "";
+  for (const key in obj4) {
+    result += key + " " + obj4[key] + " <br>";
+  }
+  out4.innerHTML = result;
+  return result;
+}
 // Task 5
 const obj5 = {
   one: 1,
   two: 2,
 };
-
+const out5 = document.querySelector(".out-5");
+const btn5 = document.querySelector(".b-5");
+btn5.onclick = () => fn5(obj5, out5);
+function fn5(obj, outBlock) {
+  let result = "";
+  for (const key in obj5) {
+    result += key + " " + obj5[key] + " <br>";
+  }
+  outBlock.innerHTML = result;
+  return result;
+}
 // Task 6
 const obj6 = {
   b: 17,
